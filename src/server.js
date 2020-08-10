@@ -3,6 +3,7 @@ const server = express()
 
 const {
     pageLanding,
+    pageSuccess,
     pageStudy,
     pageGiveClasses,
     saveClasses
@@ -20,6 +21,7 @@ server
 .use(express.static("public"))
 
 .get("/", pageLanding)
+.get("/success", pageSuccess)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)

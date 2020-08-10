@@ -1,0 +1,54 @@
+#page-success {
+    background-image: "/images/success-background.svg";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-primary);
+}
+
+#page-success #container {
+    color: var(--color-text-in-primary);
+}
+
+.check-container h2 {
+    font: 700 2.4rem Archivo;
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+    align-items: center;
+
+}
+
+.check-image img {
+    width: 90px;
+    height: 90px;
+}
+
+.buttons-container a {
+    width: 176px;
+    height: 56px;
+    
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+
+    font: 600 1.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    transition: background 0.2s;
+
+    color: var(--color-button-text);
+}
+
+.buttons-container a.study {
+    background: var(--color-secondary);
+    margin-right: 0;
+}
+
+
+.buttons-container a.study:hover {
+    background: var(--color-secondary-dark);  
+}
